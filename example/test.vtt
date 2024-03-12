@@ -1,0 +1,674 @@
+WEBVTT
+
+00:10.282 --> 00:12.164
+[SPEAKER_01]: Hello and welcome to Sustain.
+
+00:12.184 --> 00:18.372
+[SPEAKER_01]: I am here at FOSSI, the free and open source software yearly conference put on by Software Freedom Conservancy, the first conference of its type.
+
+00:18.693 --> 00:21.075
+[SPEAKER_01]: The why is aspirational, but still pretty awesome.
+
+00:22.071 --> 00:29.556
+[SPEAKER_01]: in Portland, Oregon, which is around 3000 miles above San Diego, where our guest is coming in today from Stuart Geiger.
+
+00:29.576 --> 00:30.357
+[SPEAKER_01]: Stuart, how are you doing today?
+
+00:30.377 --> 00:31.337
+[SPEAKER_01]: You're doing fantastic.
+
+00:31.697 --> 00:32.018
+[SPEAKER_01]: Excellent.
+
+00:32.338 --> 00:42.184
+[SPEAKER_01]: Stuart is associate professor, assistant professor at UC San Diego, focusing on open source communities and how people work together.
+
+00:42.204 --> 00:42.905
+[SPEAKER_01]: Is that accurate?
+
+00:43.385 --> 00:44.046
+[SPEAKER_02]: Yeah, yeah.
+
+00:44.166 --> 00:50.030
+[SPEAKER_02]: I also study various kind of decentralized, volunteer-based, peer production kind of communities.
+
+00:50.210 --> 00:54.313
+[SPEAKER_02]: So open source is sort of one of, but I think it's important to also kind of compare across.
+
+00:54.413 --> 00:55.074
+[SPEAKER_01]: Totally is.
+
+00:55.154 --> 00:57.896
+[SPEAKER_01]: And I'm glad that you also have like multiple aspects of interest.
+
+00:57.916 --> 01:03.340
+[SPEAKER_01]: Now, you were one of the fundees in the first digital infrastructure fund, right?
+
+01:03.620 --> 01:03.860
+[SPEAKER_01]: Yes.
+
+01:04.180 --> 01:05.041
+[SPEAKER_01]: What was that work for?
+
+01:05.561 --> 01:30.554
+[SPEAKER_02]: Yeah, so that was work by those funded by the Ford and the Sloan Foundations for research into the kind of social background of open source into the invisible work, the unsurfaced work, sometimes what is called the glue work or what is a lot of things that take place behind the scenes of open source and how that intersects with issues of community sustainability, particularly with maintainer burnout.
+
+01:31.215 --> 01:31.615
+[SPEAKER_01]: Fascinating.
+
+01:31.675 --> 01:33.836
+[SPEAKER_01]: OK, when you say invisible work, what are you talking about?
+
+01:34.156 --> 01:37.937
+[SPEAKER_02]: So often it's kind of things that aren't tracked on public code repositories.
+
+01:38.638 --> 01:55.664
+[SPEAKER_02]: I think that's, you know, the easy thing in open source is that, right, you can sort of go and see a list of commits and sometimes that'll include some non-code things like documentation, but it includes all kinds of other sort of things that keep the community together where you're not just maintaining software, but you're maintaining a network of people.
+
+01:56.184 --> 01:58.825
+[SPEAKER_02]: who are invested and interested and contributing to this.
+
+01:58.905 --> 02:07.068
+[SPEAKER_02]: So everything from organizing events, to doing fundraising, to mentoring, to conflict resolution, to long-term planning.
+
+02:08.349 --> 02:10.050
+[SPEAKER_02]: All these things are things that don't show up.
+
+02:10.870 --> 02:20.474
+[SPEAKER_02]: Some projects might put them in issues on their trackers or things like that, but often they aren't as visible as code and documentation and things that hit the repository.
+
+02:20.908 --> 02:23.270
+[SPEAKER_01]: So that makes sense to anyone who's ever been around an open source project.
+
+02:23.590 --> 02:26.593
+[SPEAKER_01]: The issue for me is that it is invisible.
+
+02:27.113 --> 02:29.775
+[SPEAKER_01]: So as a scientist, how do you make any conclusions?
+
+02:29.815 --> 02:31.356
+[SPEAKER_01]: How do you find out about the invisible work?
+
+02:31.516 --> 02:32.537
+[SPEAKER_02]: Largely through interviews.
+
+02:33.078 --> 02:36.180
+[SPEAKER_02]: And we've conducted over 50 interviews, about an hour each.
+
+02:37.441 --> 02:43.903
+[SPEAKER_02]: with various sort of current and former maintainers and contributors to a wide variety of open source and free software projects.
+
+02:44.163 --> 02:54.747
+[SPEAKER_02]: And so kind of just asking people about their day to day, sometimes even people will pull up their own sort of logs and work histories or emails or conversations on chat or things like that.
+
+02:54.867 --> 02:57.428
+[SPEAKER_02]: And I think that's kind of the first part of those interviews.
+
+02:57.688 --> 03:00.689
+[SPEAKER_02]: That's all the things that sort of don't make it on to GitHub or GitLab.
+
+03:00.869 --> 03:04.570
+[SPEAKER_01]: So tell me about any recommendations you have at the end of those papers.
+
+03:04.850 --> 03:08.654
+[SPEAKER_02]: Yeah, so particularly kind of trying to document this kind of work.
+
+03:09.554 --> 03:11.697
+[SPEAKER_02]: Again, there's a whole bunch of different ways that you can do it.
+
+03:12.477 --> 03:14.759
+[SPEAKER_02]: Every project is different is another thing as well.
+
+03:15.220 --> 03:20.445
+[SPEAKER_02]: And so what works really well for a small project that's really narrowly tailored has a small but
+
+03:20.845 --> 03:30.791
+[SPEAKER_02]: focused core of contributors and of users might not work for something that's massive and is used by kind of millions or billions of devices and has lots of different stakeholders in a complex ecosystem.
+
+03:30.871 --> 03:40.897
+[SPEAKER_02]: But trying to find a diversity of ways for contributors to regularly talk about and share with each other the kinds of work that they're doing behind the scenes.
+
+03:40.917 --> 03:49.682
+[SPEAKER_02]: And that's why I think actually things like this conference and in-person conferences or kind of unstructured meetups and other kinds of informal events where
+
+03:50.362 --> 03:53.845
+[SPEAKER_02]: people can kind of get together and kind of chat about what's actually going on day to day.
+
+03:53.865 --> 04:02.571
+[SPEAKER_02]: I think that's been a really important sort of aspect and something that sadly I think during the height of the pandemic was, you know, cut short and didn't provide as much opportunity.
+
+04:02.611 --> 04:13.840
+[SPEAKER_02]: So when everything is taking place through the normal channels, there can not necessarily there can edit when everything's taking place through the typical channels, the public channels, the code repositories and issues.
+
+04:14.560 --> 04:18.245
+[SPEAKER_02]: And there's no kind of face to face or kind of informal back channel communication.
+
+04:19.126 --> 04:32.803
+[SPEAKER_02]: Communities can kind of not be as close or not be understanding what everyone is doing, because a lot of people can be working very hard on something that no one else knows how much time, how much energy, how much effort, how much emotional investment.
+
+04:33.283 --> 04:42.875
+[SPEAKER_02]: went into resolving a particular conflict or integrating with another project somewhere in the same ecosystem that just for everyone else appears as, oh, the issue solved.
+
+04:42.915 --> 04:43.436
+[SPEAKER_02]: It's magic.
+
+04:43.816 --> 04:44.197
+[SPEAKER_02]: It's done.
+
+04:44.557 --> 04:45.298
+[SPEAKER_02]: It's off our plate.
+
+04:45.939 --> 04:50.445
+[SPEAKER_01]: So you're saying that the coffee track is actually one of the most important parts of the conference.
+
+04:50.825 --> 04:51.545
+[SPEAKER_02]: We'll reassert that.
+
+04:51.585 --> 04:51.806
+[SPEAKER_02]: Yeah.
+
+04:51.826 --> 04:52.326
+[SPEAKER_02]: A hundred percent.
+
+04:52.346 --> 04:54.747
+[SPEAKER_02]: The coffee track is the most important part of the conference.
+
+04:55.067 --> 04:55.728
+[SPEAKER_01]: That's what I thought.
+
+04:55.748 --> 05:03.011
+[SPEAKER_01]: Do you have any recommendations for how we move beyond having in-person coffee tracks seeing as how conferences themselves are somewhat environmentally suspect?
+
+05:03.312 --> 05:03.612
+[SPEAKER_02]: No.
+
+05:03.652 --> 05:05.172
+[SPEAKER_02]: So I think it's a really good point to mention.
+
+05:05.333 --> 05:05.573
+[SPEAKER_01]: Okay.
+
+05:05.713 --> 05:07.414
+[SPEAKER_02]: And I actually think it's really interesting how
+
+05:08.174 --> 05:16.877
+[SPEAKER_02]: You know, things like Open Collective, which are trying to move and projects in the direction of being more open about finances and operations and logistics and all that kind of thing.
+
+05:16.917 --> 05:20.238
+[SPEAKER_02]: I think there's a lot of promise there in seeing being able to represent.
+
+05:20.758 --> 05:23.219
+[SPEAKER_02]: I think it's built currently for the financial tracking.
+
+05:23.239 --> 05:32.802
+[SPEAKER_02]: I think it's interesting how people also use that to document other kinds of work that they're doing or things that require reimbursements can make people say, oh, I didn't know that you were doing this and that.
+
+05:33.362 --> 05:35.063
+[SPEAKER_02]: And so I think there can be other kinds of ways.
+
+05:35.103 --> 05:36.464
+[SPEAKER_02]: There's a couple of different projects.
+
+05:36.544 --> 05:42.168
+[SPEAKER_02]: One I even saw was using a whole bunch of different emojis to be able to signify different kinds of non-code work.
+
+05:42.268 --> 05:42.929
+[SPEAKER_01]: All contributors.
+
+05:43.029 --> 05:44.650
+[SPEAKER_02]: The all contributors project.
+
+05:45.070 --> 05:51.975
+[SPEAKER_01]: Which does a really good job at that, although it still requires people to actually volunteer for those emojis or be nominated for them.
+
+05:51.995 --> 05:54.076
+[SPEAKER_01]: And then there is a commit history for those emojis.
+
+05:54.116 --> 05:57.098
+[SPEAKER_01]: But it does help to lead to showing all this invisible work.
+
+05:57.579 --> 05:58.739
+[SPEAKER_01]: Did you draw any?
+
+05:59.940 --> 06:15.912
+[SPEAKER_01]: parallels between it is a work in open source and invisible work in society writ large for instance the massive amount of abysmal work that's been going on forever with say women in the workplace or women at home and how did that figure into your research
+
+06:16.351 --> 06:18.632
+[SPEAKER_02]: Yeah, no, actually, that's a really that's a really good point to bring up.
+
+06:18.652 --> 06:25.954
+[SPEAKER_02]: One of the things that we did find, you know, is that some of this labor can be gendered in a particular way, especially some of the work that's marked as more social.
+
+06:26.374 --> 06:31.196
+[SPEAKER_02]: I happen to think that all technical work is social in a sense, especially in open source.
+
+06:31.256 --> 06:43.100
+[SPEAKER_02]: But there's definitely people we talk to who express frustration, particularly women, people of color, people from more marginalized backgrounds at kind of being expected to do some of that work and
+
+06:43.880 --> 06:48.844
+[SPEAKER_02]: the other people kind of are seen as just being able to make the kind of technical contributions or things like that.
+
+06:49.605 --> 06:51.126
+[SPEAKER_02]: But also there's can be this.
+
+06:51.146 --> 06:54.770
+[SPEAKER_02]: And one of the things we were also really interested with is how this intersects with burnout.
+
+06:54.950 --> 07:06.560
+[SPEAKER_02]: And I think that was something that was one of our hypotheses coming in was that invisible work and unrecognized work and, you know, people not being valued or appreciated for that was potentially an issue.
+
+07:06.960 --> 07:25.810
+[SPEAKER_02]: And we did find that there are people who not necessarily like left the project, but kind of really felt demotivated and kind of detached from it or sort of stopped contributing as often as they did or kind of didn't follow on a path that would have led them to be kind of a core maintainer or sort of more in a governance sort of part of that because their contributions sort of weren't recognized.
+
+07:26.091 --> 07:35.196
+[SPEAKER_02]: On the other hand, although there's other success cases, I think cases where projects have been particularly good at calling out and identifying and specifying formal roles.
+
+07:36.036 --> 07:38.117
+[SPEAKER_02]: for all these kind of different kinds of things.
+
+07:39.017 --> 07:48.380
+[SPEAKER_02]: And I think that kind of shows giving people these hooks into things that projects can do to establish roles that let people see what all the kinds of work that's being done.
+
+07:48.440 --> 07:50.281
+[SPEAKER_02]: If you have a dedicated role on your website,
+
+07:51.329 --> 07:58.392
+[SPEAKER_02]: and for event organizers or for someone who organizes a weekly call for the community to kind of all get together and chat.
+
+07:58.852 --> 08:08.976
+[SPEAKER_02]: If you have on your kind of about page of a website or your repo that as a role, or even as I've seen one project do, they created a whole bunch of roles and they didn't have people to fill them.
+
+08:09.016 --> 08:10.356
+[SPEAKER_02]: And so they just labeled them vacant.
+
+08:10.816 --> 08:16.399
+[SPEAKER_02]: And that kind of invited people right to kind of volunteer to, yeah, do you want to help host the community weekly call?
+
+08:16.419 --> 08:17.019
+[SPEAKER_02]: Do you want to help
+
+08:17.739 --> 08:19.660
+[SPEAKER_02]: mentor newcomers to the project.
+
+08:19.680 --> 08:21.161
+[SPEAKER_02]: There were specified roles for that.
+
+08:21.562 --> 08:24.283
+[SPEAKER_02]: And that can sort of really bring people in and sort of have that.
+
+08:25.084 --> 08:26.625
+[SPEAKER_02]: You know, what I was doing is research on Wikipedia.
+
+08:26.645 --> 08:29.327
+[SPEAKER_02]: We call it the reader to leader kind of model.
+
+08:29.347 --> 08:31.468
+[SPEAKER_02]: But I guess I don't think there's one that rhymes for.
+
+08:31.949 --> 08:32.529
+[SPEAKER_02]: Thinking about it.
+
+08:32.729 --> 08:33.430
+[SPEAKER_02]: Committer to.
+
+08:34.510 --> 08:39.173
+[SPEAKER_01]: If anyone has any suggestions, email them to podcast at the same OSS dot org.
+
+08:39.714 --> 08:42.776
+[SPEAKER_01]: Happy to talk about your freeloader to coder.
+
+08:43.516 --> 08:44.417
+[SPEAKER_02]: Freeloader to coder.
+
+08:44.497 --> 08:44.977
+[SPEAKER_01]: Working on it.
+
+08:45.037 --> 08:45.798
+[SPEAKER_01]: Working on it.
+
+08:45.938 --> 08:47.199
+[SPEAKER_01]: I'll keep workshopping that one.
+
+08:47.979 --> 09:08.881
+[SPEAKER_01]: Can you tell me about the union or the parallels between creative work as a social act that has a lot of invisible work with certain labels with capitalism, which tends to involve paying people specifically for roles which are valued using the currency that's in use at the time, and how do those interact?
+
+09:09.471 --> 09:15.656
+[SPEAKER_02]: Yeah, so this is one of the really interesting things about burnout is that as a concept, I mean, people use it colloquially in a lot of different ways.
+
+09:15.716 --> 09:20.700
+[SPEAKER_02]: Sometimes it's just a synonym for kind of exhaustion or my battery's depleted and I need to take a vacation.
+
+09:21.281 --> 09:33.731
+[SPEAKER_02]: Kind of clinically, as this has been studied medically, one of the core components of it is a kind of sense of it goes by different names, but sort of cynicism or a kind of a lack of belief in the value of that work.
+
+09:33.911 --> 09:38.054
+[SPEAKER_02]: And burnout is typically associated and studied with professions I think are not
+
+09:38.973 --> 09:44.357
+[SPEAKER_02]: where people aren't compensated as much and they're under much harsher working conditions, nurses, teachers, calling.
+
+09:44.577 --> 09:44.797
+[SPEAKER_01]: Yeah.
+
+09:44.938 --> 09:45.158
+[SPEAKER_02]: Right.
+
+09:45.238 --> 09:49.881
+[SPEAKER_02]: And so this is burnout's been extensively studied in nursing and teaching as well.
+
+09:49.941 --> 09:55.886
+[SPEAKER_02]: These are professions where people find very strong emotional attachments to the work and the people that they're helping.
+
+09:56.366 --> 09:58.908
+[SPEAKER_02]: They're often, again, gendered professions as well.
+
+09:59.288 --> 10:00.509
+[SPEAKER_02]: They're caretaking professions.
+
+10:00.549 --> 10:05.052
+[SPEAKER_02]: People feel a strong sense of obligation and get a lot out of it when things are going well.
+
+10:05.132 --> 10:19.202
+[SPEAKER_02]: But when things stop going well and or things start to get overwhelming or there's kind of a sense of disillusionment or feelings of being exploited or of the system not working as it should be working or benefiting the people it should be benefiting,
+
+10:19.682 --> 10:20.883
+[SPEAKER_02]: that kind of flips on itself.
+
+10:20.963 --> 10:38.653
+[SPEAKER_02]: That emotional investment that, oh, I'm helping people, I'm a part of this, becomes almost even worse than if you were just saying, I have a nine to five job, I do labor eight hours a day, and then I go home and I don't have any kind of deep emotional investment or I don't feel like it's a calling, which can be a very emotionally healthy way that many people approach their jobs.
+
+10:38.733 --> 10:41.115
+[SPEAKER_02]: But for these professions that are seen like a calling,
+
+10:41.815 --> 10:59.658
+[SPEAKER_02]: That's going to can actually kind of lead people into these very negative feelings and kind of really emotional turmoil when something that became very core to their identity and who they are and something that they see as doing, you know, in the case of nursing or teaching, they're taking kind of a pay cut from what they can sort of usually get in other comparable fields in open source.
+
+10:59.718 --> 10:59.818
+[SPEAKER_02]: Right.
+
+10:59.838 --> 11:03.179
+[SPEAKER_02]: It's a lot of like volunteer kind of work or undercompensated work as well.
+
+11:03.199 --> 11:07.320
+[SPEAKER_02]: And a lot more if you put those hours into like just corporate tech consulting.
+
+11:08.300 --> 11:20.350
+[SPEAKER_02]: And so because of that, whenever people don't feel recognized, whenever people feel that the work that they're doing is not actually going towards the original reason why they they signed up for this in the first place.
+
+11:21.191 --> 11:29.218
+[SPEAKER_02]: Yeah, it can lead to kind of really negative feelings and leading to people resigning or kind of falling into depression or other kind of really negative consequences.
+
+11:29.558 --> 11:31.720
+[SPEAKER_01]: You've done a lot of interviews with open source practitioners.
+
+11:31.760 --> 11:34.743
+[SPEAKER_01]: Do you find that people who are in open source tend to view it as a calling?
+
+11:35.223 --> 11:36.184
+[SPEAKER_01]: Some do and some don't.
+
+11:36.764 --> 11:43.329
+[SPEAKER_02]: And this, I think maybe correlates a bit with sort of the open source free software kind of distinction or movement.
+
+11:43.870 --> 11:49.014
+[SPEAKER_02]: There are some people who kind of get into it, particularly it's just kind of a thing that is a business necessity.
+
+11:49.554 --> 11:52.716
+[SPEAKER_02]: They don't really have a strong kind of commitment or belief.
+
+11:52.756 --> 12:02.304
+[SPEAKER_02]: They don't sort of participate in it, but then they meet people who do and they kind of buy a bug or they kind of get or they have that feeling where I remember my first project I had where
+
+12:03.348 --> 12:07.230
+[SPEAKER_02]: I made something, I gave it away for free, and people found it really useful.
+
+12:07.831 --> 12:08.691
+[SPEAKER_02]: And they told me that.
+
+12:08.851 --> 12:10.892
+[SPEAKER_02]: And that was so gratifying to me.
+
+12:10.912 --> 12:15.615
+[SPEAKER_02]: Especially, I had been writing all these papers that, like, nobody had been reading and barely citing or anything.
+
+12:15.955 --> 12:20.038
+[SPEAKER_02]: And then I write this software that I kind of just throw it away on GitHub and, oh, people like it.
+
+12:20.728 --> 12:26.669
+[SPEAKER_02]: But then when that turns to project achieves what one of my interview is called catastrophic success.
+
+12:27.069 --> 12:33.871
+[SPEAKER_02]: This can then be kind of flipped again, the same with the kind of the burnout kind of issue and this also kind of lead to burnout.
+
+12:34.531 --> 12:44.613
+[SPEAKER_02]: And so, yeah, so I think some people in open source kind of enter into it with maybe more of an instrumental approach or they kind of just see it as it's a way to kind of have a common layer of tools and infrastructure.
+
+12:45.273 --> 12:46.353
+[SPEAKER_02]: for the software industry.
+
+12:46.974 --> 12:49.294
+[SPEAKER_02]: But I think there's also kind of these kind of feelings.
+
+12:49.634 --> 12:56.997
+[SPEAKER_02]: It's not the same kind of work that typically takes place even in software, which is a weird industry in capitalism already compared to other industries.
+
+12:57.017 --> 13:07.600
+[SPEAKER_01]: I have a question around open source evangelism, because I've often found that people who are in open source community work and have taken on roles which do normally invisible work
+
+13:08.237 --> 13:20.681
+[SPEAKER_01]: particularly as evangelists underneath that term, come from an evangelical background and come from a background of religious upbringing where they've just sort of supplanted this idea of, I have to save myself and save everyone else too.
+
+13:20.701 --> 13:22.922
+[SPEAKER_01]: I have to use open source or free software.
+
+13:23.502 --> 13:25.543
+[SPEAKER_01]: And I was just curious if you'd rather cross that at all.
+
+13:25.803 --> 13:35.066
+[SPEAKER_02]: That wasn't a question I think I specifically, we actually talked to a lot of people about OSS Vos evangelism, but I don't think we've ever actually asked people about kind of the religious link specifically.
+
+13:36.073 --> 13:39.035
+[SPEAKER_02]: One, and no one sort of volunteered it as part of that history.
+
+13:39.376 --> 13:52.766
+[SPEAKER_02]: Instead, some people have sort of talked about is how it feels like or its comparisons with political activism, which I think is another kind of volunteer based on that, like interacts with and has impact on a larger system that it's kind of next to.
+
+13:53.547 --> 13:57.810
+[SPEAKER_02]: where there can be a lot of invisible work, a lot of decentralization, a lot of things like that.
+
+13:58.050 --> 13:58.370
+[SPEAKER_01]: Interesting.
+
+13:58.390 --> 14:01.312
+[SPEAKER_01]: I mean, today I've interviewed this is my ninth podcast today.
+
+14:01.793 --> 14:03.153
+[SPEAKER_01]: I've had several teachers.
+
+14:03.414 --> 14:07.256
+[SPEAKER_01]: I've had several people who've worked in the federal sector who worked in municipal sectors.
+
+14:07.857 --> 14:13.360
+[SPEAKER_01]: So it's a non-null amount of the open source ecosystem just using a random slice at a conference as an example.
+
+14:14.321 --> 14:16.062
+[SPEAKER_01]: So that's just really fascinating.
+
+14:16.422 --> 14:17.923
+[SPEAKER_01]: That's what you've worked on in the past.
+
+14:17.943 --> 14:19.965
+[SPEAKER_01]: That's what you're working on, the digital infrastructure fund.
+
+14:20.265 --> 14:23.207
+[SPEAKER_01]: And we are running up on time, but I am curious, what are you working on now?
+
+14:23.749 --> 14:26.691
+[SPEAKER_02]: I'm trying to kind of continue some of this work, kind of expand it.
+
+14:26.911 --> 14:38.037
+[SPEAKER_02]: And I think as everyone is talking, I think the hot new thing, you might not be surprised, this sort of large language model kind of generated AI kind of world, I think poses a really interesting kind of question for open source in this.
+
+14:38.298 --> 14:42.080
+[SPEAKER_02]: And I think we're starting to see like Facebook open sourcing a large language model.
+
+14:42.680 --> 14:48.805
+[SPEAKER_02]: And so people are kind of asking kind of similar questions that people were asking when corporations were first starting to get involved in open source.
+
+14:49.206 --> 14:50.507
+[SPEAKER_02]: What's their motivation for this?
+
+14:50.587 --> 14:52.088
+[SPEAKER_02]: Why are they doing this?
+
+14:52.268 --> 14:54.250
+[SPEAKER_02]: And how is governance going to take place?
+
+14:54.770 --> 15:01.536
+[SPEAKER_02]: You have a lot of different debates over the orientation or alignment of these tools and the way that that sort of will be done.
+
+15:02.376 --> 15:07.501
+[SPEAKER_02]: And yeah, and so I think something that I think is especially the intellectual property issues of this are very unsettled as well.
+
+15:07.941 --> 15:11.104
+[SPEAKER_02]: But I think it's going to be given the amount of and I'm not exactly at
+
+15:11.624 --> 15:21.573
+[SPEAKER_02]: sort of generative AI or GPT optimist in the sense of I don't think it's one of these like world shattering kind of once in a millennium type dimension, but I think it's making significant progress.
+
+15:21.673 --> 15:28.559
+[SPEAKER_02]: And I think that it's starting to become a real kind of economic and political have major economic and political significance.
+
+15:28.579 --> 15:29.400
+[SPEAKER_02]: And so because of that,
+
+15:30.060 --> 15:46.468
+[SPEAKER_02]: open source as sort of a way in which all these different companies and developers and researchers are trying to collectively figure out like what's the direction of this thing and and is it something that for example i following the argument that for example if these things are trained on all of humanity
+
+15:47.208 --> 15:49.790
+[SPEAKER_02]: Should they should all the models be necessarily open source?
+
+15:49.850 --> 15:49.970
+[SPEAKER_02]: Right.
+
+15:49.990 --> 15:56.715
+[SPEAKER_02]: Should that be something where if you're training data is sufficiently broad, should you be required to have a certain kind of kind of license?
+
+15:57.076 --> 16:03.741
+[SPEAKER_02]: We're also seeing other kinds of licenses from like Sam Altman, who's proposing kind of not a very different understanding of licenses.
+
+16:03.981 --> 16:04.221
+[SPEAKER_02]: Yeah.
+
+16:04.661 --> 16:06.383
+[SPEAKER_02]: And kind of regulating regulating that.
+
+16:06.403 --> 16:08.885
+[SPEAKER_02]: So I think that's something that I've been following and starting to.
+
+16:09.205 --> 16:12.988
+[SPEAKER_01]: There's also the issue of not having license, not having licensable material.
+
+16:13.008 --> 16:15.169
+[SPEAKER_01]: And there's also the issue of
+
+16:16.070 --> 16:22.720
+[SPEAKER_01]: having discretionary licenses, which is we don't want our work to ever be fed into an AI model, which is really, really interesting as well.
+
+16:22.780 --> 16:28.388
+[SPEAKER_01]: How do you protect people's, say, indigenous rights from the giant catch-all that is AI?
+
+16:29.878 --> 16:35.281
+[SPEAKER_01]: Well, we are running up on time, so I want to ask, where can people follow along with your work online?
+
+16:35.521 --> 16:39.344
+[SPEAKER_02]: The only social networking platform I am on is StuartGeiger.com.
+
+16:39.644 --> 16:43.866
+[SPEAKER_02]: From there, you can find all of the papers that we published, as well as my email address.
+
+16:44.066 --> 16:45.747
+[SPEAKER_02]: And that is the way to contact me.
+
+16:45.767 --> 16:47.368
+[SPEAKER_01]: Is that Geiger, E-I or I-E?
+
+16:47.849 --> 16:51.871
+[SPEAKER_02]: S-T-U-A-R-T-G-E-I-G-E-R.com.
+
+16:52.031 --> 16:55.135
+[SPEAKER_01]: And of course, you'll also find that in the show notes.
+
+16:55.276 --> 16:56.197
+[SPEAKER_01]: Stuart, thank you so much.
+
+16:56.217 --> 16:57.779
+[SPEAKER_01]: You're also on Google Scholar, correct?
+
+16:58.100 --> 16:58.180
+[SPEAKER_01]: Yes.
+
+16:58.260 --> 17:02.446
+[SPEAKER_01]: So people can read those amazing papers and then just read them and then write you an email saying, I read a paper.
+
+17:02.526 --> 17:02.986
+[SPEAKER_01]: It was good.
+
+17:03.547 --> 17:05.230
+[SPEAKER_01]: Never happens, but it'd be nice if it happened more.
+
+17:05.710 --> 17:07.913
+[SPEAKER_01]: Thank you so much for coming on and hope you enjoy the conference.
+
+17:08.174 --> 17:08.634
+[SPEAKER_01]: Thank you very much.
+
+17:09.400 --> 17:11.341
+[SPEAKER_01]: Listeners, I hope you have enjoyed this podcast.
+
+17:11.761 --> 17:20.564
+[SPEAKER_01]: If you're curious about Fosse, where these were recorded, go to sfconservancy.org, to the Software Freedom Conservancy's website, where you can learn more about it.
+
+17:21.004 --> 17:24.945
+[SPEAKER_01]: It's been really, really fun to be here and have these great conversations about free and open source software.
+
+17:25.265 --> 17:28.070
+[SPEAKER_01]: Of course, if you've liked this podcast, please let us know.
+
+17:28.650 --> 17:31.134
+[SPEAKER_01]: Like us on Apple, Spotify, or wherever you're listening to it.
+
+17:31.775 --> 17:35.842
+[SPEAKER_01]: Email us at podcastatsustainoss.org.
+
+17:35.962 --> 17:38.626
+[SPEAKER_01]: Give us any thoughts or comments or queries or complaints.
+
+17:38.686 --> 17:40.289
+[SPEAKER_01]: We would love to hear them.
+
+17:40.789 --> 17:42.070
+[SPEAKER_01]: And of course, please tell your friends.
+
+17:42.150 --> 17:45.312
+[SPEAKER_01]: Word of mouth is the single best way to get more listeners on this podcast.
+
+17:45.792 --> 17:48.673
+[SPEAKER_01]: And hopefully, you think that that's something we should have.
+
+17:49.094 --> 17:58.479
+[SPEAKER_01]: If you would like to donate, you can go to Open Collective to SustainOSS, where you can donate to the production cost for this podcast, which is not free, so that would be super, super great.
+
+17:59.099 --> 18:05.484
+[SPEAKER_01]: And of course, you can join in the conversation yourself by going to discoursewiththesaintoss.org to go chat.
+
+18:05.804 --> 18:11.689
+[SPEAKER_01]: And you can follow us on Twitter at ThsaintOSS, on Mastodon, and I believe on Blue Sky.
+
+18:12.249 --> 18:14.290
+[SPEAKER_01]: So thank you so much for listening and take care.
+
+18:14.571 --> 18:14.711
+[SPEAKER_01]: Bye.
+
